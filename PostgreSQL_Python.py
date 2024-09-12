@@ -1,7 +1,7 @@
 import psycopg2
 
 
-conn = psycopg2.connect(database = "clientinfo_db", user = "postgres", password = "123")
+conn = psycopg2.connect(database = "clientinfo_db", user = "postgres", password = "postgres")
 
 # Создаем таблицы БД
 def create_table(conn):
